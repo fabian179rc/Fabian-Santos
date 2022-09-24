@@ -8,11 +8,13 @@
 }
 
 .shape {
+  /*animacion*/
   stroke-dasharray: 70 540;
   stroke-dashoffset: -474;
   stroke-width: 8px;
   fill: transparent;
   stroke: #19f6e8;
+  /* stroke: #e01717; */
   border-bottom: 5px solid black;
   transition: stroke-width 1s, stroke-dashoffset 1s, stroke-dasharray 1s;
   height: 40px;
@@ -37,24 +39,27 @@
   stroke-dasharray: 760;
 }
 
-.container {
+/* .container {
   display: flex;
   position: absolute;
   flex-direction: row;
   height: 100vh;
   width: 100%;
-}
+} */
 
 .list {
   display: flex;
   flex-direction: row;
+  position: absolute;
+
   justify-content: space-between;
   transform: rotate(-90deg);
   margin-top: 280px;
+  margin-left: 100px;
   height: 40px;
 }
-.lists {
+/* .lists {
   display: flex;
   position: absolute;
   margin-left: -18%;
-}
+} */

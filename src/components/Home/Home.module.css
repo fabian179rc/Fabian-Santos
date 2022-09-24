@@ -1,6 +1,64 @@
 body {
-  background-color: black;
+  /* background-color: black; */
   /* background-repeat: no-repeat; */
   /* background-position: center; */
+  color: white;
   background-image: url("https://img.freepik.com/foto-gratis/fondo-oscuro-abstracto_1048-1920.jpg?w=740&t=st=1664021643~exp=1664022243~hmac=7b5bba99e8cc9a10c472b2ce3684f6b11693bc522824a811f596c9ce7018108b");
+  /* border: 2px solid red; */
+  /* height: 100vh; */
+}
+.render {
+  display: flex;
+  height: 80%;
+  width: 80%;
+  position: absolute;
+  background-color: red;
+  bottom: 8%;
+  left: 12%;
+}
+.navbar {
+  display: flex;
+  position: absolute;
+  margin-left: -18%;
+  /* padding-bottom: 55%; */
+  top: 6%;
+  left: 1.5%;
+}
+.logo {
+  display: flex;
+  position: absolute;
+  width: 150px;
+  padding-top: 0.5%;
+  padding-left: 0.5%;
+}
+
+.svgwrapper {
+  position: flex;
+  top: 50%;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 96vh;
+}
+
+.svg {
+  width: 100%;
+  height: 96vh;
+}
+
+.shape {
+  width: 100%;
+  height: 96vh;
+}
+
+.svgwrapper:hover .shape {
+  fill: transparent;
+  stroke: #19f6e8;
+  transition: stroke-width 3s, stroke-dashoffset 3s, stroke-dasharray 3s;
+  width: 100%;
+  height: 96vh;
+
+  stroke-width: 8px;
+  stroke-dashoffset: 100;
+  stroke-dasharray: 20;
 }
