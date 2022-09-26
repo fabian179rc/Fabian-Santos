@@ -1,0 +1,17 @@
+.list {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  transform: rotate(90deg);
+  justify-content: space-between;
+  height: 30px;
+  width: 300px;
+  top: 50%;
+  left: 85%;
+  align-items: center;
+}
+.link {
+  color: white;
+  text-decoration: none;
+  list-style: none;
+}
