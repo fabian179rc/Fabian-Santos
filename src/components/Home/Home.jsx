@@ -2,6 +2,7 @@ import React from "react";
 import Nav from "../Nav/Nav";
 import Resumen from "../Resumen/Resumen";
 import Social from "../Social/Social";
+import Projects from "../Projects/Projects";
 import s from "./Home.module.css";
 
 export default function Home() {
@@ -12,10 +13,8 @@ export default function Home() {
       <Nav />
       <Social />
       <label className={s.span}>» FullStack Developer «</label>
-      <div className={s.renderis}>
-        <Social />
-
-        <div className={s.render}></div>
+      <div className={s.render}>
+        <Projects />
       </div>
     </div>
   );
