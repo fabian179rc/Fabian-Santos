@@ -5,13 +5,10 @@ export default function Nav() {
   return (
     <div className={s.list}>
       <Link to="/contactme" className={s.link}>
-        Proyectos
+        PROYECTOS
       </Link>
       <Link to="/contactme" className={s.link}>
-        Tecnologias
-      </Link>
-      <Link to="/contactme" className={s.link}>
-        Contacto
+        TECNOLOGIAS
       </Link>
     </div>
   );

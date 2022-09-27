@@ -3,22 +3,41 @@ body {
   background-color: black;
 }
 .logo {
+  position: absolute;
   width: 250px;
-  padding-left: 1.5%;
-  padding-top: 2%;
+  left: 50px;
+  top: 30px;
 }
 .span {
-  display: flex;
-  margin-top: 35%;
-  margin-left: 2%;
+  position: absolute;
+  bottom: 30px;
+  left: 60px;
   font-size: 1.3rem;
+  letter-spacing: 3px;
 }
 .button {
-  margin-left: 71.5%;
-  margin-top: 2%;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 40px;
+  right: 80px;
+  gap: 10px;
+  cursor: pointer;
+  letter-spacing: 3px;
 }
 .navbar {
   display: flex;
   flex-direction: row;
   align-items: center;
+}
+.btnSocialMedia {
+  transition: fill 0.3s;
+}
+.simbol {
+  color: rgb(107, 83, 83);
+}
+
+.button:hover .simbol {
+  fill: #ce1313;
 }

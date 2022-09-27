@@ -6,12 +6,15 @@
   justify-content: space-between;
   height: 30px;
   width: 300px;
-  top: 50%;
-  left: 85%;
+  top: 280px;
+  right: -50px;
   align-items: center;
+  /* background-color: red; */
 }
 .link {
   color: white;
   text-decoration: none;
   list-style: none;
+  font-size: 1em;
+  letter-spacing: 3px;
 }

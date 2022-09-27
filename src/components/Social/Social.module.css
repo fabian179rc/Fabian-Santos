@@ -1,0 +1,58 @@
+.listContainer {
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  /* border-radius: 10px; */
+  /* border: 1px solid white; */
+  gap: 2rem;
+  height: 10px;
+  width: 300px;
+  bottom: 30px;
+  right: 50px;
+}
+
+.btnSocialMedia {
+  transition: fill 0.3s;
+}
+.mail {
+  color: rgb(107, 83, 83);
+}
+.linkedin {
+  color: rgb(107, 83, 83);
+}
+.github {
+  color: rgb(107, 83, 83);
+}
+.whatsApp {
+  color: rgb(107, 83, 83);
+}
+
+.github:hover {
+  fill: #b0a7a7;
+}
+
+.linkedin:hover {
+  fill: #076dd3;
+}
+
+.whatsApp:hover {
+  fill: #0dbf42;
+}
+
+.mail:hover {
+  fill: #c2cc3a;
+}
+
+@media screen and (max-width: 720px) {
+  .listContainer {
+    gap: 1rem;
+    padding: 1rem 2rem;
+  }
+}
+
+@media screen and (max-width: 364px) {
+  .listContainer {
+    padding: 1rem 0.5rem;
+  }
+}
