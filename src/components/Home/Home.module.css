@@ -2,12 +2,7 @@ body {
   color: white;
   background-color: black;
 }
-.logo {
-  position: absolute;
-  width: 250px;
-  left: 50px;
-  top: 30px;
-}
+
 .span {
   position: absolute;
   bottom: 30px;
@@ -15,29 +10,36 @@ body {
   font-size: 1.3rem;
   letter-spacing: 3px;
 }
-.button {
-  position: absolute;
+
+.render {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  top: 40px;
-  right: 80px;
-  gap: 10px;
-  cursor: pointer;
-  letter-spacing: 3px;
-}
-.navbar {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
-.btnSocialMedia {
-  transition: fill 0.3s;
-}
-.simbol {
-  color: rgb(107, 83, 83);
+  background-color: red;
+  width: 80vw;
+  height: 70vh;
+  margin-top: 17vh;
+  margin-left: 9.5vh;
 }
 
-.button:hover .simbol {
-  fill: #ce1313;
+@media screen and (max-width: 720px) {
+  .span {
+    visibility: hidden;
+  }
+  .render {
+    height: 80vh;
+    margin-top: 9vh;
+    margin-left: 9.5vh;
+  }
+}
+@media screen and (max-width: 500px) {
+  .span {
+    visibility: visible;
+    top: 40px;
+    left: 50px;
+  }
+  .render {
+    width: 85vw;
+    height: 75vh;
+    margin-top: 15vh;
+    margin-left: 5vh;
+  }
 }

@@ -1,7 +1,7 @@
-export default function Home() {
+export default function Proyects() {
   return (
     <>
-      <div></div>
+      <div>Proyects</div>
     </>
   );
 }

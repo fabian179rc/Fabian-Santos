@@ -1,7 +1,7 @@
-export default function Home() {
+export default function Technologies() {
   return (
     <>
-      <div></div>
+      <div>Technologies</div>
     </>
   );
 }

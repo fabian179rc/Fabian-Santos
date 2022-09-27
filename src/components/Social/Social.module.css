@@ -46,13 +46,17 @@
 
 @media screen and (max-width: 720px) {
   .listContainer {
-    gap: 1rem;
-    padding: 1rem 2rem;
+    bottom: 30px;
+    right: 29%;
   }
 }
-
-@media screen and (max-width: 364px) {
+@media screen and (max-width: 620px) {
   .listContainer {
-    padding: 1rem 0.5rem;
+    right: 25%;
+  }
+}
+@media screen and (max-width: 500px) {
+  .listContainer {
+    right: 10%;
   }
 }
