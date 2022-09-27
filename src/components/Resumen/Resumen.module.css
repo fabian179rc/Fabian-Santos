@@ -51,11 +51,11 @@
 @media screen and (max-width: 500px) {
   .navbar .button {
     top: 65px;
-    right: 90px;
+    left: 100px;
   }
   .navbar .logo {
     width: 150px;
-    left: 100px;
+    left: 110px;
     top: 10px;
   }
 }
