@@ -1,12 +1,23 @@
-.video {
+.container {
   display: flex;
-  /* position: relative; */
-  height: 430px;
-  width: 1030px;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  /* background-color: yellow; */
 }
-/* .link {
-  display: flex;
-  position: absolute;
-  top: 200px;
-  left: 200px;
-} */
+
+.render {
+  height: 70vh;
+  width: 950px;
+  /* 
+  border: 2px solid rgba(152, 14, 14, 0.488);
+  border-radius: 10px 10px 10px 10px; */
+}
+
+.video {
+  height: 98%;
+  width: 940px;
+  border: 2px solid rgba(152, 14, 14, 0.488);
+  border-radius: 10px 10px 10px 10px;
+}
