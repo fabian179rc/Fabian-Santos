@@ -26,20 +26,24 @@ body {
     visibility: hidden;
   }
   .render {
+    width: 50vw;
+
     height: 80vh;
     margin-top: 9vh;
     margin-left: 9.5vh;
   }
 }
+
 @media screen and (max-width: 500px) {
   .span {
     visibility: visible;
     top: 40px;
     left: 40px;
+    height: 20px;
   }
   .render {
     width: 85vw;
-    height: 60vh;
+    height: 55vh;
     margin-top: 15vh;
     margin-left: 5vh;
   }
