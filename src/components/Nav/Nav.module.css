@@ -19,12 +19,19 @@
   letter-spacing: 3px;
   cursor: pointer;
 }
-/*  */
-.link {
-  position: relative;
-  display: inline-block;
+.selected {
   text-decoration: none;
-  overflow: hidden;
+  list-style: none;
+  font-size: 1em;
+  letter-spacing: 3px;
+  cursor: pointer;
+  transition: all 1s;
+  /* text-decoration: underline rgb(20, 132, 225); */
+  text-decoration: underline rgb(94, 95, 96);
+}
+
+.link:hover {
+  text-decoration: underline rgb(20, 132, 225);
 }
 
 @media screen and (max-width: 1530px) {
