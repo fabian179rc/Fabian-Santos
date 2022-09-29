@@ -37,8 +37,8 @@ body {
 
 .span {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  /* justify-content: center;
+  align-items: center; */
   position: absolute;
   bottom: 30px;
   left: 60px;
@@ -87,11 +87,12 @@ body {
 @media screen and (max-width: 500px) {
   .span {
     visibility: visible;
-    top: 40px;
+    top: 50px;
     left: 40px;
     height: 20px;
     background: none;
     animation: none;
+    font-size: 1rem;
   }
   .render {
     width: 85vw;
