@@ -3,7 +3,6 @@ import logo from "../../img/logo3.png";
 // import Cv from "../../Cv/Fabian-Santos-Fullstack-Developer.pdf";
 import s from "./Resumen.module.css";
 import { MdOutlineCloudDownload } from "react-icons/md";
-import { Link } from "react-router-dom";
 
 export default function Resumen() {
   return (
@@ -16,7 +15,7 @@ export default function Resumen() {
         rel="noopener noreferrer"
       >
         <div className={s.button}>
-          <span>RESUMEN </span>
+          <span className={s.span}>RESUMEN </span>
 
           <MdOutlineCloudDownload
             className={`${s.btnSocialMedia} ${s.simbol}`}

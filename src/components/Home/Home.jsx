@@ -22,7 +22,7 @@ export default function Home() {
       <Resumen />
       <Nav />
       <Social />
-      <label className={s.span}>» FullStack Developer «</label>
+      <label className={s.span}> » FullStack Developer « </label>
       <div className={s.render}>
         {render === "about" ? <About /> : <Project />}
       </div>

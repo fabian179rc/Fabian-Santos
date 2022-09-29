@@ -40,25 +40,18 @@
 .foto {
   display: flex;
   justify-content: center;
-  align-items: center;
+  /* align-items: center; */
   width: 50%;
-  padding-bottom: 50px;
-  height: 120%;
+  /* padding-bottom: 50px; */
+  height: 100%;
   /* margin-left: 10%; */
   /* background-color: red; */
 }
 .foto img {
+  border-radius: 50px 50px 50px 50px;
+
   height: 70%;
   width: 60%;
-  border-radius: 50px 50px 50px 50px;
-}
-about b {
-  overflow: hidden; /* Ensures the content is not revealed until the animation */
-  border-right: 0.15em solid orange; /* The typwriter cursor */
-  white-space: nowrap; /* Keeps the content on a single line */
-  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-  letter-spacing: 0.15em; /* Adjust as needed */
-  animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite;
 }
 
 @keyframes typing {
@@ -109,6 +102,7 @@ about b {
   .foto {
     padding-bottom: 0%;
     height: 100%;
+    align-items: center;
   }
 }
 @media screen and (max-width: 1000px) {
