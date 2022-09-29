@@ -75,7 +75,8 @@ body {
   .render {
     width: 85vw;
     height: 55vh;
-    margin-top: 28vh;
+    /*  */
+    margin-top: 20vh;
     margin-left: 3vh;
   }
   .button {
