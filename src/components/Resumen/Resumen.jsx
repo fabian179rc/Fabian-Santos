@@ -1,6 +1,6 @@
 import React from "react";
 import logo from "../../img/logo3.png";
-import Cv from "../../Cv/Fabian-Santos-Fullstack-Developer.pdf";
+import Cv from "../../../public/Fabian-Santos-Fullstack-Developer.pdf";
 import s from "./Resumen.module.css";
 import { MdOutlineCloudDownload } from "react-icons/md";
 import { Link } from "react-router-dom";
