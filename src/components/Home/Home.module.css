@@ -31,9 +31,16 @@ body {
   /* margin-left: 12vh; */
   visibility: hidden;
 }
+
+.button {
+  visibility: hidden;
+  position: absolute;
+}
+
 @media screen and (max-width: 1030px) {
   .render {
     width: 70vw;
+    margin-top: 20vh;
   }
 }
 @media screen and (max-width: 720px) {
@@ -49,20 +56,15 @@ body {
   }
 }
 
-/* @media screen and (max-width: 650px) {
-  .render {
-    visibility: hidden;
-  }
-  .render2 {
-    background-color: red;
-    position: absolute;
+@media screen and (max-width: 650px) {
+  .button {
     visibility: visible;
-    top: 30%;
-    left: 15%;
-    width: 60vw;
+    height: 40px;
+    width: 130px;
+    top: 75%;
+    left: 35%;
   }
-} */
-
+}
 @media screen and (max-width: 500px) {
   .span {
     visibility: visible;
@@ -73,7 +75,14 @@ body {
   .render {
     width: 85vw;
     height: 55vh;
-    margin-top: 15vh;
-    margin-left: 5vh;
+    margin-top: 28vh;
+    margin-left: 3vh;
+  }
+  .button {
+    visibility: visible;
+    height: 40px;
+    width: 130px;
+    top: 80%;
+    left: 35%;
   }
 }

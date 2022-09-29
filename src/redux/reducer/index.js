@@ -1,7 +1,7 @@
 import { CHANGE_NAVBAR } from "../actions";
 
 const initialState = {
-  render: "proyects",
+  render: "about",
 };
 
 export default function userReducer(state = initialState, { type, payload }) {
