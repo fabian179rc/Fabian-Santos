@@ -1,6 +1,6 @@
 import React from "react";
 import logo from "../../img/logo3.png";
-import Cv from "../../../public/Fabian-Santos-Fullstack-Developer.pdf";
+// import Cv from "../../Cv/Fabian-Santos-Fullstack-Developer.pdf";
 import s from "./Resumen.module.css";
 import { MdOutlineCloudDownload } from "react-icons/md";
 import { Link } from "react-router-dom";
@@ -9,12 +9,11 @@ export default function Resumen() {
   return (
     <div className={s.navbar}>
       <img src={logo} alt="Logo" className={s.logo} />
-      <Link
+      <a
         className={s.link}
-        href={Cv}
+        href="Fabian-Santos-Fullstack-Developer.pdf"
         target="_blank"
         rel="noopener noreferrer"
-        download="Fabian-Santos-Fullstack-Developer.pdf"
       >
         <div className={s.button}>
           <span>RESUMEN </span>
@@ -25,7 +24,7 @@ export default function Resumen() {
             title="Github"
           />
         </div>
-      </Link>
+      </a>
     </div>
   );
 }
