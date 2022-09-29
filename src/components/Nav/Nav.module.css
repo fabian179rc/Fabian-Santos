@@ -6,7 +6,7 @@
   justify-content: space-between;
   height: 30px;
   width: 300px;
-  top: 320px;
+  top: 400px;
   right: -50px;
   align-items: center;
   /* background-color: red; */
@@ -20,6 +20,11 @@
   cursor: pointer;
 }
 
+@media screen and (max-width: 1530px) {
+  .list {
+    top: 290px;
+  }
+}
 @media screen and (max-width: 868px) {
   .list {
     right: -80px;
