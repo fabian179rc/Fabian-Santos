@@ -37,6 +37,11 @@ body {
   position: absolute;
 }
 
+.styleButton {
+  background-color: transparent;
+  color: white;
+  border-radius: 10px 10px 10px 10px;
+}
 @media screen and (max-width: 1030px) {
   .render {
     width: 70vw;

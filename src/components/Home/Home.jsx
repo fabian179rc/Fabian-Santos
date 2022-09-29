@@ -30,13 +30,18 @@ export default function Home() {
       <div className={s.button}>
         {render === "about" ? (
           <button
-            className={s.link}
+            className={s.styleButton}
             onClick={(e) => changeNavbar(e, "projects")}
           >
             PROYECTOS »
           </button>
         ) : (
-          <button onClick={(e) => changeNavbar(e, "about")}>SOBRE MI »</button>
+          <button
+            className={s.styleButton}
+            onClick={(e) => changeNavbar(e, "about")}
+          >
+            SOBRE MI »
+          </button>
         )}
       </div>
     </div>
