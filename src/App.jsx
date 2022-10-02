@@ -4,18 +4,19 @@ import "./normalize.css";
 import "./App.css";
 import { useEffect, useState } from "react";
 function App() {
-  const [loading, setLoading] = useState(false);
+  const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    setLoading(true);
     setTimeout(() => {
       setLoading(false);
-    }, 4000);
+    }, 3000);
   }, []);
   return (
     <>
-      {false ? (
-        <div class="loading">wqdqwdqwdw</div>
+      {loading ? (
+        <div className="container">
+          <div className="img"></div>
+        </div>
       ) : (
         <Routes>
           <Route exact path="/" element={<Home />} />
