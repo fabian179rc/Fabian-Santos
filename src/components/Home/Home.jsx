@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import Nav from "../Nav/Nav";
 import Resumen from "../Resumen/Resumen";
 import Social from "../Social/Social";
@@ -10,15 +10,20 @@ import { useDispatch, useSelector } from "react-redux";
 import { changeNav } from "../../redux/actions";
 
 export default function Home() {
-  const render = useSelector((state) => state.render);
+  const navbarStatus = useSelector((state) => state.render);
+  const [render, setRender] = useState();
   const dispatch = useDispatch();
+
+  useEffect(() => {
+    setRender(navbarStatus);
+  }, [navbarStatus]);
 
   function changeNavbar(e, value) {
     e.preventDefault(e);
     dispatch(changeNav(value));
   }
   return false ? (
-    <Loading />
+    "asd"()
   ) : (
     <div>
       <Resumen />
@@ -26,11 +31,10 @@ export default function Home() {
       <Social />
       <label className={s.span}>» FullStack Developer «</label>
       <div className={s.render}>
-        {/* {render === "about" ? <About /> : <Project />} */}
+        {render === "about" ? <About /> : <Project />}
       </div>
-      {/* <button className={s.button} onClick={(e) => changeNavbar(e)}> */}
       <div className={s.button}>
-        {render === "about" ? (
+        {render === "projects" ? (
           <button
             className={s.styleButton}
             onClick={(e) => changeNavbar(e, "projects")}
@@ -45,7 +49,6 @@ export default function Home() {
             SOBRE MI »
           </button>
         )}
-        <Loading />
       </div>
     </div>
   );

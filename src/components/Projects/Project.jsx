@@ -6,17 +6,23 @@ function Proyect() {
   const [activeSlideIndex, setActiveSlideIndex] = useState(0);
   const items = [
     {
-      src: "https://www.youtube.com/embed/JN0hART65Ek?rel=0&fs=0&controls=0&disablekb=1",
-      title: "Starcards",
-    },
-    {
       src: "https://www.youtube.com/embed/LfSbr_aBc08?rel=0&fs=0&controls=0&disablekb=1",
       title: "VideoGames",
     },
-    // {
-    //   src: proyecto3,
-    // },
+    {
+      // src: "https://www.youtube.com/watch?v=JN0hART65Ek",
+      src: "https://www.youtube.com/embed/JN0hART65Ek?rel=0&fs=0&controls=0&disablekb=1",
+      title: "Starcards",
+    },
   ];
+
+  (function () {
+    function cargaDeVideos() {
+      $("#video1").attr("src", "https://www.youtube.com/watch?v=JN0hART65Ek");
+    }
+
+    setTimeout(cargaDeVideos);
+  });
   return (
     <ReactSimplyCarousel
       activeSlideIndex={activeSlideIndex}
@@ -24,7 +30,6 @@ function Proyect() {
       itemsToShow={1}
       itemsToScroll={1}
       forwardBtnProps={{
-        //here you can also pass className, or any other button element attributes
         style: {
           alignSelf: "center",
           background: "black",
@@ -41,7 +46,6 @@ function Proyect() {
         children: <span>{`>`}</span>,
       }}
       backwardBtnProps={{
-        //here you can also pass className, or any other button element attributes
         style: {
           alignSelf: "center",
           background: "black",
@@ -69,14 +73,14 @@ function Proyect() {
     >
       <iframe
         className={s.video}
-        src="https://www.youtube.com/embed/JN0hART65Ek?rel=0&fs=0&controls=0&disablekb=1"
+        src={items[0].src}
         frameBorder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         allowFullScreen
       ></iframe>
       <iframe
         className={s.video}
-        src="https://www.youtube.com/embed/LfSbr_aBc08?rel=0&fs=0&controls=0&disablekb=1"
+        src={items[1].src}
         frameBorder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         allowFullScreen
