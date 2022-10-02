@@ -1,12 +1,7 @@
 :root {
-  /* --color-effect: #1de526; */
   --color-effect: #c10000;
 }
-/* .all {
-  width: 100%;
-  height: 100vh;
-  background-color: rgba(0, 0, 0, 0.545);
-} */
+
 .ring {
   position: absolute;
   top: 50%;
@@ -15,8 +10,7 @@
   width: 200px;
   height: 200px;
   background: transparent;
-  /* border: 3px solid #3c3c3c; */
-  /* border: 3px solid #3c3c3c; */
+
   border-radius: 50%;
   text-align: center;
   line-height: 200px;
@@ -26,7 +20,6 @@
   letter-spacing: 4px;
   text-transform: uppercase;
   text-shadow: 0 0 10px var(--color-effect);
-  /* box-shadow: 0 0 20px rgba(172, 55, 55, 0.5); */
   box-shadow: 0 0 0px rgba(172, 55, 55, 0.5);
 }
 .ring:before {

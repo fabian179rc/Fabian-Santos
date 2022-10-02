@@ -1,10 +1,7 @@
 .video {
   display: flex;
-  height: 98%;
+  height: 100%;
   width: 940px;
-  /* width: 70vw; */
-  /* border: 2px solid rgba(152, 14, 14, 0.488);
-  border-radius: 10px 10px 10px 10px; */
 }
 
 @media screen and (max-width: 1255px) {
@@ -16,6 +13,7 @@
 @media screen and (max-width: 943px) {
   .video {
     width: 500px;
+    height: 98%;
   }
 }
 

@@ -1,6 +1,5 @@
 body {
   color: white;
-  /* background-color: black; */
   background-image: linear-gradient(rgba(0, 0, 0, 0.866), rgba(0, 0, 0, 0.844)),
     url(/src/img/3.gif);
   height: 100vh;
@@ -12,22 +11,10 @@ body {
 .render {
   display: flex;
   position: relative;
-  /* background-color: red; */
   width: 80vw;
   height: 70vh;
   margin-top: 17vh;
   margin-left: 12vh;
-}
-
-.render2 {
-  display: flex;
-  position: relative;
-  /* background-color: red; */
-  width: 80vw;
-  height: 70vh;
-  margin-top: -17vh;
-  /* margin-left: 12vh; */
-  visibility: hidden;
 }
 
 .button {
@@ -51,13 +38,11 @@ body {
   font-size: 1.3rem;
   letter-spacing: 3px;
   width: 280px;
-  /*  */
   border-radius: 10px 10px 10px 10px;
   background: linear-gradient(90deg, #000, #fff, #000);
   background-repeat: no-repeat;
   background-size: 80%;
   animation: animate 3s linear infinite;
-
   -webkit-text-fill-color: rgba(255, 255, 255, 0);
   -webkit-text-fill-color: white;
 }
@@ -73,8 +58,6 @@ body {
     visibility: hidden;
   }
   .render {
-    /* width: 80vw; */
-
     height: 80vh;
     margin-top: 9vh;
     margin-left: 9.5vh;
@@ -90,6 +73,7 @@ body {
     left: 35%;
   }
 }
+
 @media screen and (max-width: 500px) {
   .span {
     visibility: visible;
@@ -103,14 +87,13 @@ body {
   .render {
     width: 85vw;
     height: 55vh;
-    /*  */
     margin-top: 20vh;
     margin-left: 3vh;
   }
   .button {
     visibility: visible;
     height: 40px;
-    width: 120px;
+    width: 130px;
     top: 80%;
     left: 35%;
   }
