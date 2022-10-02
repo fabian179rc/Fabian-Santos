@@ -15,7 +15,7 @@ export default function Resumen() {
         rel="noopener noreferrer"
       >
         <div className={s.button}>
-          <span className={s.span}>RESUMEN </span>
+          <span>RESUMEN </span>
 
           <MdOutlineCloudDownload
             className={`${s.btnSocialMedia} ${s.simbol}`}

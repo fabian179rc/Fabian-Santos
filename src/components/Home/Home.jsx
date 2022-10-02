@@ -3,6 +3,7 @@ import Nav from "../Nav/Nav";
 import Resumen from "../Resumen/Resumen";
 import Social from "../Social/Social";
 import Project from "../Projects/Project";
+import Loading from "../Loading/Loading";
 import About from "../About/About";
 import s from "./Home.module.css";
 import { useDispatch, useSelector } from "react-redux";
@@ -14,17 +15,18 @@ export default function Home() {
 
   function changeNavbar(e, value) {
     e.preventDefault(e);
-    // console.log(value);
     dispatch(changeNav(value));
   }
-  return (
+  return false ? (
+    <Loading />
+  ) : (
     <div>
       <Resumen />
       <Nav />
       <Social />
       <label className={s.span}>» FullStack Developer «</label>
       <div className={s.render}>
-        {render === "about" ? <About /> : <Project />}
+        {/* {render === "about" ? <About /> : <Project />} */}
       </div>
       {/* <button className={s.button} onClick={(e) => changeNavbar(e)}> */}
       <div className={s.button}>
@@ -43,6 +45,7 @@ export default function Home() {
             SOBRE MI »
           </button>
         )}
+        <Loading />
       </div>
     </div>
   );

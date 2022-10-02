@@ -35,8 +35,7 @@
   left: 50px;
   top: 30px;
 }
-.span {
-}
+
 @media screen and (max-width: 720px) {
   .navbar .button {
     top: 10px;
