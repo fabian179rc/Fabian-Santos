@@ -5,7 +5,7 @@ export default function Loading() {
   return (
     <div className={s.all}>
       <div className={s.ring}>
-        Loading
+        Cargando
         <span className={s.span}></span>
       </div>
     </div>

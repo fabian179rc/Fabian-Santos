@@ -1,16 +1,26 @@
 import { Route, Routes } from "react-router-dom";
 import Home from "./components/Home/Home";
 import "./normalize.css";
-
+import "./App.css";
+import { useEffect, useState } from "react";
 function App() {
+  const [loading, setLoading] = useState(false);
+
+  useEffect(() => {
+    setLoading(true);
+    setTimeout(() => {
+      setLoading(false);
+    }, 4000);
+  }, []);
   return (
     <>
-      <Routes>
-        <Route exact path="/" element={<Home />} />
-        {/* <Route exact path="/tecnologies" element={<Technologies />} /> */}
-        {/* <Route exact path="/proyects" element={<Proyects />} /> */}
-        {/* <Route exact path="/contactme" element={<Contactme />} /> */}
-      </Routes>
+      {false ? (
+        <div class="loading">wqdqwdqwdw</div>
+      ) : (
+        <Routes>
+          <Route exact path="/" element={<Home />} />
+        </Routes>
+      )}{" "}
     </>
   );
 }

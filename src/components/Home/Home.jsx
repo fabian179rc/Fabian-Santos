@@ -37,14 +37,14 @@ export default function Home() {
         {render === "projects" ? (
           <button
             className={s.styleButton}
-            onClick={(e) => changeNavbar(e, "projects")}
+            onClick={(e) => changeNavbar(e, "about")}
           >
             PROYECTOS »
           </button>
         ) : (
           <button
             className={s.styleButton}
-            onClick={(e) => changeNavbar(e, "about")}
+            onClick={(e) => changeNavbar(e, "projects")}
           >
             SOBRE MI »
           </button>
