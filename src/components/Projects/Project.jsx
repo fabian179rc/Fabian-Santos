@@ -27,6 +27,7 @@ function Proyect() {
 
   return (
     <>
+      <label className={s.projects}>PROYECTOS</label>
       <Loading />
       <ReactSimplyCarousel
         activeSlideIndex={activeSlideIndex}
