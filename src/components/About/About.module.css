@@ -97,6 +97,13 @@
     font-size: 12px;
     width: 80%;
   }
+  .b2 {
+    font-size: 12px;
+    margin-top: 5%;
+  }
+  .b3 {
+    font-size: 12px;
+  }
   .b1 {
     padding-bottom: 0%;
   }
@@ -110,23 +117,32 @@
   .b1 {
     padding-bottom: 10%;
   }
+  .b2 {
+    font-size: 12px;
+    margin-top: 0%;
+  }
 }
 @media screen and (max-width: 650px) {
   .container {
     /* background-color: red; */
     height: 60%;
     width: 700px;
-    padding-top: 0%;
+    padding-top: 10%;
     padding-right: 0%;
+
     flex-direction: column-reverse;
   }
   .about {
-    padding-top: 5%;
-    font-size: 8px;
+    padding-top: 18%;
+    font-size: 10px;
     width: 80%;
   }
-  .about .b1 {
-    padding-bottom: 2%;
+  .b3 {
+    font-size: 10px;
+  }
+  .b2 {
+    padding-top: 20%;
+    font-size: 10px;
   }
 }
 /* @media screen and (max-width: 650px) {
