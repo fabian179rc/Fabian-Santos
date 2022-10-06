@@ -13,6 +13,9 @@ export default function About() {
         <b className={s.b2}>Tecnologias: </b>
         <b className={s.b3}>
           React - Redux - Node - Express - Sequelize - JavaScript - HTML - CSS
+          <br />
+          <br />
+          Interesado en: VUE - AWS - MongoDB
         </b>
       </div>
       <div className={s.foto}>
