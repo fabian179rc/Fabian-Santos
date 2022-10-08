@@ -4,7 +4,7 @@ import "./normalize.css";
 import "./App.css";
 import { useEffect, useState } from "react";
 function App() {
-  const [loading, setLoading] = useState(false);
+  // const [loading, setLoading] = useState(true);
 
   // useEffect(() => {
   //   setTimeout(() => {
@@ -13,15 +13,16 @@ function App() {
   // }, []);
   return (
     <>
-      {loading ? (
-        <div className="container">
-          <div className="img"></div>
-        </div>
-      ) : (
+      {
+        // loading ? (
+        //   <div className="container">
+        //     <div className="img"></div>
+        //   </div>
+        // ) :
         <Routes>
           <Route exact path="/" element={<Home />} />
         </Routes>
-      )}{" "}
+      }{" "}
     </>
   );
 }
