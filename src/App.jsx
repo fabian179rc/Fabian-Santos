@@ -4,7 +4,7 @@ import "./normalize.css";
 import "./App.css";
 import { useEffect, useState } from "react";
 function App() {
-  const [loading, setLoading] = useState(true);
+  const [loading, setLoading] = useState(false);
 
   // useEffect(() => {
   //   setTimeout(() => {
