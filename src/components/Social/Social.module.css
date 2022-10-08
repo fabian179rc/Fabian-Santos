@@ -56,6 +56,6 @@
 @media screen and (max-width: 500px) {
   .listContainer {
     left: 10%;
-    bottom: 0px;
+    bottom: 15px;
   }
 }
