@@ -134,7 +134,7 @@
     flex-direction: column-reverse;
   }
   .about {
-    padding-top: 5%;
+    /* padding-top: 5%; */
     font-size: 10px;
     width: 100%;
   }
@@ -144,5 +144,14 @@
   .b2 {
     padding-top: 5%;
     font-size: 10px;
+  }
+  .foto {
+    width: 70%;
+    height: 80%;
+  }
+  .foto img {
+    border-radius: 50px 50px 50px 50px;
+    height: 70%;
+    width: 60%;
   }
 }
