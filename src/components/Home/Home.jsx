@@ -3,7 +3,7 @@ import Nav from "../Nav/Nav";
 import Resumen from "../Resumen/Resumen";
 import Social from "../Social/Social";
 import Project from "../Projects/Project";
-import Loading from "../Loading/Loading";
+// import Loading from "../Loading/Loading";
 import About from "../About/About";
 import s from "./Home.module.css";
 import { useDispatch, useSelector } from "react-redux";

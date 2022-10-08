@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../../img/logo3.png";
+import logo from "../../img/logo.svg";
 // import Cv from "../../Cv/Fabian-Santos-Fullstack-Developer.pdf";
 import s from "./Resumen.module.css";
 import { MdOutlineCloudDownload } from "react-icons/md";
