@@ -28,7 +28,7 @@ function Proyect() {
   return (
     <>
       <label className={s.projects}>PROYECTOS</label>
-      <Loading />
+      {loading && <Loading />}
       <ReactSimplyCarousel
         activeSlideIndex={activeSlideIndex}
         onRequestChange={setActiveSlideIndex}
@@ -78,7 +78,7 @@ function Proyect() {
       >
         <iframe
           className={s.video}
-          src="https://player.vimeo.com/video/757962168?h=2b8de3953d&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+          src="https://www.youtube.com/embed/JN0hART65Ek"
           frameBorder="0"
           allow="autoplay; fullscreen; picture-in-picture"
           allowFullScreen
@@ -86,7 +86,7 @@ function Proyect() {
         ></iframe>
         <iframe
           className={s.video}
-          src="https://player.vimeo.com/video/757963944?h=2313da659a&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+          src="https://www.youtube.com/embed/LfSbr_aBc08"
           frameBorder="0"
           allow="autoplay; fullscreen; picture-in-picture"
           allowFullScreen

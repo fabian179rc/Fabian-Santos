@@ -41,12 +41,6 @@
 @media screen and (max-width: 500px) {
   .video {
     padding-bottom: 60px;
-  }
-}
-@media screen and (max-width: 800px) {
-  .projects {
-    visibility: visible;
-    left: 30%;
-    top: -20px;
+    height: 100%;
   }
 }
