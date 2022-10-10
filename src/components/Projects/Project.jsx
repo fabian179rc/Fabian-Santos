@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import ReactSimplyCarousel from "react-simply-carousel";
-import s from "../Projects/Projects.module.css";
+import style from "../Projects/Projects.module.css";
 import Loading from "../Loading/Loading";
 
 function Proyect() {
@@ -27,7 +27,7 @@ function Proyect() {
 
   return (
     <>
-      <label className={s.projects}>PROYECTOS</label>
+      <label className={style.projects}>PROYECTOS</label>
       {/* {loading && <Loading />} */}
       <ReactSimplyCarousel
         activeSlideIndex={activeSlideIndex}
@@ -77,7 +77,7 @@ function Proyect() {
         easing="linear"
       >
         <iframe
-          className={s.video}
+          className={style.video}
           src="https://player.vimeo.com/video/757962168?h=2b8de3953d&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
           frameBorder="0"
           allow="autoplay; fullscreen; picture-in-picture"
@@ -85,7 +85,7 @@ function Proyect() {
           title="StarCards musica.mp4"
         ></iframe>
         <iframe
-          className={s.video}
+          className={style.video}
           src="https://player.vimeo.com/video/757963944?h=2313da659a&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
           frameBorder="0"
           allow="autoplay; fullscreen; picture-in-picture"

@@ -6,7 +6,7 @@
   justify-content: space-between;
   height: 30px;
   width: 300px;
-  top: 400px;
+  top: 360px;
   right: -50px;
   align-items: center;
   /* background-color: red; */
@@ -36,7 +36,7 @@
 
 @media screen and (max-width: 1530px) {
   .list {
-    top: 340px;
+    top: 300px;
   }
 }
 @media screen and (max-width: 868px) {

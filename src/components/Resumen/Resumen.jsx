@@ -1,24 +1,23 @@
 import React from "react";
 import logo from "../../img/logo.svg";
-// import Cv from "../../Cv/Fabian-Santos-Fullstack-Developer.pdf";
-import s from "./Resumen.module.css";
+import style from "./Resumen.module.css";
 import { MdOutlineCloudDownload } from "react-icons/md";
 
 export default function Resumen() {
   return (
-    <div className={s.navbar}>
-      <img src={logo} alt="Logo" className={s.logo} />
+    <div className={style.navbar}>
+      <img src={logo} alt="Logo" className={style.logo} />
       <a
-        className={s.link}
+        className={style.link}
         href="Fabian-Santos-Fullstack-Developer.pdf"
         target="_blank"
         rel="noopener noreferrer"
       >
-        <div className={s.button}>
+        <div className={style.button}>
           <span>RESUMEN </span>
 
           <MdOutlineCloudDownload
-            className={`${s.btnSocialMedia} ${s.simbol}`}
+            className={`${style.btnSocialMedia} ${style.simbol}`}
             size="2em"
             title="Github"
           />

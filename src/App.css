@@ -6,7 +6,7 @@
 
 .img {
   position: absolute;
-  background-image: url(/src/img/66.gif);
+  background-image: url(/src/img/loadingInit.gif);
   height: 60vh;
   width: 60%;
   background-repeat: no-repeat;
