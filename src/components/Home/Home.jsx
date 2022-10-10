@@ -4,7 +4,7 @@ import Resumen from "../Resumen/Resumen";
 import Social from "../Social/Social";
 import Project from "../Projects/Project";
 import About from "../About/About";
-import s from "./Home.module.css";
+import style from "./Home.module.css";
 import { useDispatch, useSelector } from "react-redux";
 import { changeNav } from "../../redux/actions";
 
@@ -28,21 +28,21 @@ export default function Home() {
       <Resumen />
       <Nav />
       <Social />
-      <label className={s.span}>» FullStack Developer «</label>
-      <div className={s.render}>
+      <label className={style.span}>» FullStack Developer «</label>
+      <div className={style.render}>
         {render === "about" ? <About /> : <Project />}
       </div>
-      <div className={s.button}>
+      <div className={style.button}>
         {render === "about" ? (
           <button
-            className={s.styleButton}
+            className={style.styleButton}
             onClick={(e) => changeNavbar(e, "projects")}
           >
             PROYECTOS »
           </button>
         ) : (
           <button
-            className={s.styleButton}
+            className={style.styleButton}
             onClick={(e) => changeNavbar(e, "about")}
           >
             SOBRE MI »

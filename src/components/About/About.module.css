@@ -81,6 +81,9 @@
     height: 80%;
     /* padding-top: 7%; */
   }
+  .about {
+    padding-top: 15%;
+  }
 }
 
 @media screen and (max-width: 1150px) {

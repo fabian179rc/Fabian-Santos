@@ -1,7 +1,7 @@
 body {
   color: white;
   background-image: linear-gradient(rgba(0, 0, 0, 0.866), rgba(0, 0, 0, 0.844)),
-    url(/src/img/3.gif);
+    url(/src/img/imageBackGround.gif);
   height: 100vh;
   background-repeat: no-repeat;
   background-size: cover;

@@ -1,12 +1,12 @@
 import React from "react";
-import s from "./Loading.module.css";
+import style from "./Loading.module.css";
 
 export default function Loading() {
   return (
-    <div className={s.all}>
-      <div className={s.ring}>
+    <div className={style.all}>
+      <div className={style.ring}>
         Cargando
-        <span className={s.span}></span>
+        <span className={style.span}></span>
       </div>
     </div>
   );
