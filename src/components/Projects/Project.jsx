@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import ReactSimplyCarousel from "react-simply-carousel";
-import style from "../Projects/Projects.module.css";
+import style from "../Projects/Project.module.css";
 import Loading from "../Loading/Loading";
 
 function Proyect() {
