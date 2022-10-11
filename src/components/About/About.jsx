@@ -15,7 +15,7 @@ export default function About() {
           React - Redux - Node - Express - Sequelize - JavaScript - HTML - CSS
           <br />
           <br />
-          Interesado en: VUE - AWS - MongoDB
+          Interesado en: GO - VUE - AWS - MongoDB
         </b>
       </div>
       <div className={style.foto}>

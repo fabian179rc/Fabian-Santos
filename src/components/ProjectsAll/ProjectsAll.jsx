@@ -21,7 +21,7 @@ function ProyectsAll() {
               description={item.description}
               url={item.url}
               github={item.github}
-              images={item.images}
+              // images={item.images}
             />
           );
         })}

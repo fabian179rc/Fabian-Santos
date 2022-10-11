@@ -24,7 +24,7 @@ export default function cardProject({
           <a href={url} target="_blank">
             Video
           </a>
-          <span onClick={(e) => images(e)}>Imagenes</span>
+          {/* <span onClick={(e) => images(e)}>Imagenes</span> */}
           <a href={github} target="_blank">
             Link al Repo
           </a>
