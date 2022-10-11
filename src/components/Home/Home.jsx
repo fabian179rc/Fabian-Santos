@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import Nav from "../Nav/Nav";
 import Resumen from "../Resumen/Resumen";
 import Social from "../Social/Social";
-import Project from "../Projects/Project";
+import ProjectsAll from "../ProjectsAll/ProjectsAll";
 import About from "../About/About";
 import style from "./Home.module.css";
 import { useDispatch, useSelector } from "react-redux";
@@ -30,7 +30,7 @@ export default function Home() {
       <Social />
       <label className={style.span}>» FullStack Developer «</label>
       <div className={style.render}>
-        {render === "about" ? <About /> : <Project />}
+        {render === "about" ? <About /> : <ProjectsAll />}
       </div>
       <div className={style.button}>
         {render === "about" ? (

@@ -1,0 +1,8 @@
+.container {
+  width: 80vw;
+  height: 70vh;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  overflow-y: auto;
+}

@@ -1,0 +1,80 @@
+.container {
+  width: 48%;
+  height: auto;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.img {
+  border-radius: 10px;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.info {
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  color: white;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  opacity: 0;
+  transition: all 0.4s;
+}
+.description {
+  margin: 2.5rem 2rem;
+  text-align: center;
+}
+.info h5 {
+  font-size: 1.5rem;
+  margin: 0;
+  margin-bottom: 2%;
+}
+.section {
+  margin-top: auto;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  gap: 1.5rem;
+}
+
+.section a {
+  color: white;
+  text-decoration: none;
+  list-style: none;
+}
+.container:hover .info {
+  opacity: 1;
+}
+.container:hover img {
+  filter: blur(2px);
+}
+
+/* ===== Scrollbar CSS ===== */
+/* Firefox */
+* {
+  scrollbar-width: auto;
+  scrollbar-color: #ffffff #000000;
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 10px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #48484882;
+  border-radius: 20px;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #ffffff;
+  border-radius: 10px;
+  border: 3px none #ffffff;
+}
