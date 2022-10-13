@@ -15,8 +15,7 @@
 }
 
 .info {
-  /* background-color: rgba(0, 0, 0, 0.5); */
-  background-color: rgba(158, 13, 13, 0.5);
+  background-color: rgba(0, 0, 0, 0.5);
   position: absolute;
   color: white;
   width: 100%;

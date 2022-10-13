@@ -27,11 +27,11 @@
   cursor: pointer;
   transition: all 1s;
   /* text-decoration: underline rgb(20, 132, 225); */
-  text-decoration: underline rgb(94, 95, 96);
+  text-decoration: underline 3px rgb(20, 132, 225);
 }
 
 .link:hover {
-  text-decoration: underline rgb(20, 132, 225);
+  text-decoration: underline 3px rgba(216, 0, 0, 0.804);
 }
 
 @media screen and (max-width: 1530px) {
