@@ -72,10 +72,9 @@ body {
     top: 80%;
     left: 40%;
   }
-  .render {
-    /* margin: 0; */
-    /* width: 100vw; */
-  }
+  /* .render {
+    width: 100vw;
+  } */
 }
 
 @media screen and (max-width: 500px) {
@@ -89,7 +88,6 @@ body {
     font-size: 1rem;
   }
   .render {
-    width: 85vw;
     height: 55vh;
     margin-top: 20vh;
     margin-left: 3vh;

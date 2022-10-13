@@ -36,17 +36,22 @@
 
 @media screen and (max-width: 1530px) {
   .list {
-    top: 300px;
+    top: 350px;
   }
 }
-@media screen and (max-width: 868px) {
+@media screen and (max-width: 1030px) {
+  .list {
+    right: -90px;
+  }
+}
+/* @media screen and (max-width: 868px) {
   .list {
     right: -80px;
   }
-}
-@media screen and (max-width: 700px) {
+} */
+@media screen and (max-width: 750px) {
   .list {
-    right: -90px;
+    right: -120px;
   }
 }
 @media screen and (max-width: 650px) {
