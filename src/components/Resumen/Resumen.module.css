@@ -9,6 +9,11 @@
   cursor: pointer;
   letter-spacing: 3px;
 }
+.button:hover {
+  transition: all 1s;
+
+  text-decoration: underline 3px rgba(216, 0, 0, 0.804);
+}
 .navbar {
   display: flex;
   flex-direction: row;
