@@ -17,21 +17,21 @@ const items = [
     github: "https://github.com/fabian179rc/StarCards",
     images: ["", ""],
   },
-  {
-    img: "https://camo.githubusercontent.com/4a0b1abfeeda835d52586927e5cc8e0d92599c3550471741b08e4b1c74180574/68747470733a2f2f692e6962622e636f2f5746734a3450782f43617264732d53746f72652e706e67",
-    title: "Starcards",
-    description: "asdqwdqwdqwd",
-    url: "https://www.youtube.com/embed/JN0hART65Ek",
-    github: "https://github.com/fabian179rc/StarCards",
-    images: ["", ""],
-  },
-  {
-    img: "https://camo.githubusercontent.com/4a0b1abfeeda835d52586927e5cc8e0d92599c3550471741b08e4b1c74180574/68747470733a2f2f692e6962622e636f2f5746734a3450782f43617264732d53746f72652e706e67",
-    title: "Starcards",
-    description: "asdqwdqwdqwd",
-    url: "https://www.youtube.com/embed/JN0hART65Ek",
-    github: "https://github.com/fabian179rc/StarCards",
-    images: ["", ""],
-  },
+  // {
+  //   img: "https://camo.githubusercontent.com/4a0b1abfeeda835d52586927e5cc8e0d92599c3550471741b08e4b1c74180574/68747470733a2f2f692e6962622e636f2f5746734a3450782f43617264732d53746f72652e706e67",
+  //   title: "Starcards",
+  //   description: "asdqwdqwdqwd",
+  //   url: "https://www.youtube.com/embed/JN0hART65Ek",
+  //   github: "https://github.com/fabian179rc/StarCards",
+  //   images: ["", ""],
+  // },
+  // {
+  //   img: "https://camo.githubusercontent.com/4a0b1abfeeda835d52586927e5cc8e0d92599c3550471741b08e4b1c74180574/68747470733a2f2f692e6962622e636f2f5746734a3450782f43617264732d53746f72652e706e67",
+  //   title: "Starcards",
+  //   description: "asdqwdqwdqwd",
+  //   url: "https://www.youtube.com/embed/JN0hART65Ek",
+  //   github: "https://github.com/fabian179rc/StarCards",
+  //   images: ["", ""],
+  // },
 ];
 export default items;
