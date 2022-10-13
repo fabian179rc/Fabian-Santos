@@ -89,8 +89,10 @@ body {
   }
   .render {
     height: 55vh;
+    width: 80%;
+
     margin-top: 20vh;
-    margin-left: 3vh;
+    margin-left: 8%;
   }
   .button {
     visibility: visible;

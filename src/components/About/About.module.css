@@ -133,7 +133,7 @@
     width: 100vw;
     padding-top: 8%;
     padding-right: 0%;
-    padding-left: 35%;
+    /* padding-left: 35%; */
     flex-direction: column-reverse;
   }
   .about {
