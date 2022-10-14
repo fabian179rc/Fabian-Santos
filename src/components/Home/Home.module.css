@@ -72,6 +72,9 @@ body {
     top: 80%;
     left: 40%;
   }
+  /* .render {
+    width: 100vw;
+  } */
 }
 
 @media screen and (max-width: 500px) {
@@ -85,10 +88,11 @@ body {
     font-size: 1rem;
   }
   .render {
-    width: 85vw;
     height: 55vh;
+    width: 80%;
+
     margin-top: 20vh;
-    margin-left: 3vh;
+    margin-left: 8%;
   }
   .button {
     visibility: visible;
