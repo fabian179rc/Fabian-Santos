@@ -5,10 +5,11 @@ export default function About() {
     <div className={style.container}>
       <div className={style.about}>
         <b className={style.b1}>
-          Soy Fabian, un Desarrollador enfocado por el buen funcionamiento del
-          codigo limpio, siempre buscando mejorar mis buenas prácticastyle. Me
-          motiva trabajar en equipos donde la diversidad de opiniones, aportan
-          al desarrollo grupal y hacer con esto, un excelente clima laboral.
+          Hola! Soy Fabian, un Desarrollador enfocado en el funcionamiento de
+          Apps end-to-end. Siempre en movimiento para mejorar las buenas
+          prácticas. Me motiva trabajar en equipos donde la diversidad de
+          opiniones, aportan al desarrollo grupal y hacer con esto, un excelente
+          clima laboral.
         </b>
         <b className={style.b2}>Tecnologias: </b>
         <b className={style.b3}>
