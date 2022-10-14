@@ -21,9 +21,7 @@ export default function Home() {
     e.preventDefault(e);
     dispatch(changeNav(value));
   }
-  return false ? (
-    "asd"()
-  ) : (
+  return (
     <div>
       <Resumen />
       <Nav />
