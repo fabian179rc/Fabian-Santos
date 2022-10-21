@@ -72,9 +72,6 @@ body {
     top: 80%;
     left: 40%;
   }
-  /* .render {
-    width: 100vw;
-  } */
 }
 
 @media screen and (max-width: 500px) {
