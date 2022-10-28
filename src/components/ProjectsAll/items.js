@@ -7,6 +7,7 @@ const items = [
     url: "https://www.youtube.com/embed/LfSbr_aBc08",
     github: "https://github.com/fabian179rc/VideoGames",
     images: ["", ""],
+    deploy: "https://pi-video-game.vercel.app/",
   },
   {
     img: "https://camo.githubusercontent.com/4a0b1abfeeda835d52586927e5cc8e0d92599c3550471741b08e4b1c74180574/68747470733a2f2f692e6962622e636f2f5746734a3450782f43617264732d53746f72652e706e67",
@@ -16,15 +17,18 @@ const items = [
     url: "https://www.youtube.com/embed/JN0hART65Ek",
     github: "https://github.com/fabian179rc/StarCards",
     images: ["", ""],
+    deploy: "https://starcards.vercel.app/",
   },
-  // {
-  //   img: "https://camo.githubusercontent.com/4a0b1abfeeda835d52586927e5cc8e0d92599c3550471741b08e4b1c74180574/68747470733a2f2f692e6962622e636f2f5746734a3450782f43617264732d53746f72652e706e67",
-  //   title: "Starcards",
-  //   description: "asdqwdqwdqwd",
-  //   url: "https://www.youtube.com/embed/JN0hART65Ek",
-  //   github: "https://github.com/fabian179rc/StarCards",
-  //   images: ["", ""],
-  // },
+  {
+    img: "https://github.com/fabian179rc/Personal-Finance/blob/main/2.png",
+    title: "Finance Personal",
+    description:
+      "Proyecto de finanzas personales, donde registra los gastos e ingresos, guardando informacion con un registro por google",
+    // url: "",
+    github: "https://github.com/fabian179rc/Personal-Finance",
+    images: ["", ""],
+    deploy: "https://finance-personal.vercel.app/",
+  },
   // {
   //   img: "https://camo.githubusercontent.com/4a0b1abfeeda835d52586927e5cc8e0d92599c3550471741b08e4b1c74180574/68747470733a2f2f692e6962622e636f2f5746734a3450782f43617264732d53746f72652e706e67",
   //   title: "Starcards",
