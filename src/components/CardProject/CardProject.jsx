@@ -7,11 +7,10 @@ export default function cardProject({
   description,
   url,
   github,
-  images,
+  deploy,
 }) {
   function images(e) {
     e.preventDefault();
-    //dispatch openmodalcarrousel
   }
 
   return (
@@ -21,12 +20,18 @@ export default function cardProject({
         <h5>{title}</h5>
         <span className={style.description}>{description}</span>
         <section className={style.section}>
-          <a href={url} target="_blank">
-            Video
-          </a>
-          {/* <span onClick={(e) => images(e)}>Imagenes</span> */}
+          {url ? (
+            <a href={url} target="_blank">
+              Video
+            </a>
+          ) : (
+            ""
+          )}
           <a href={github} target="_blank">
             Link al Repo
+          </a>
+          <a href={deploy} target="_blank">
+            Web
           </a>
         </section>
       </div>
