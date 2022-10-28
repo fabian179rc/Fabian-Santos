@@ -21,6 +21,7 @@ function ProyectsAll() {
               description={item.description}
               url={item.url}
               github={item.github}
+              deploy={item.deploy}
               // images={item.images}
             />
           );
