@@ -20,7 +20,7 @@ const items = [
     deploy: "https://starcards.vercel.app/",
   },
   {
-    img: "https://github.com/fabian179rc/Personal-Finance/blob/main/2.png",
+    img: "https://raw.github.com/fabian179rc/Personal-Finance/blob/main/2.png",
     title: "Finance Personal",
     description:
       "Proyecto de finanzas personales, donde registra los gastos e ingresos, guardando informacion con un registro por google",
