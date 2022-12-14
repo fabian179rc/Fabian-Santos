@@ -12,7 +12,7 @@ export default function About() {
         </b>
         <b className={style.b2}>Tecnologias: </b>
         <b className={style.b3}>
-          JavaScript - React - Redux - Node - Express - HTML - CSS - SQL - Sequelize - MongoDB - Mongoose
+          JavaScript - React - Redux - Node - Express - HTML - CSS - SQL - MongoDB
           <br />
           <br />
           Interesado en: GO - VUE - AWS
