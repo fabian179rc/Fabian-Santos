@@ -5,18 +5,17 @@ export default function About() {
     <div className={style.container}>
       <div className={style.about}>
         <b className={style.b1}>
-          Hola! Soy Fabian, un Desarrollador enfocado en el funcionamiento de
-          Apps end-to-end. Siempre en movimiento para mejorar las buenas
-          prácticas. Me motiva trabajar en equipos donde la diversidad de
-          opiniones, aportan al desarrollo grupal y hacer con esto, un excelente
-          clima laboral.
+          Soy Fabian, un Dev enfocado en el desarrollo de
+          Applicaciones end-to-end. Me gusta trabajar por objetivos, aprender nuevas tecnologias y aportar todo de mi al equipo. 
+          Soy Team player, pero tambien me desenvuelvo bien como autonomo. Tengo adaptabilidad, compromiso y pasion por lo que hago.
+          Dispongo de experiencia trabajando en equipo con metodologias agiles.
         </b>
         <b className={style.b2}>Tecnologias: </b>
         <b className={style.b3}>
-          React - Redux - Node - Express - Sequelize - JavaScript - HTML - CSS
+          JavaScript - React - Redux - Node - Express - HTML - CSS - SQL - Sequelize - MongoDB - Mongoose
           <br />
           <br />
-          Interesado en: GO - VUE - AWS - MongoDB
+          Interesado en: GO - VUE - AWS
         </b>
       </div>
       <div className={style.foto}>
