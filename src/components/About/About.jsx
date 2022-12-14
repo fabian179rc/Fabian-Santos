@@ -5,8 +5,8 @@ export default function About() {
     <div className={style.container}>
       <div className={style.about}>
         <b className={style.b1}>
-          Soy Fabian, un Dev enfocado en el desarrollo de
-          Applicaciones end-to-end. Me gusta trabajar por objetivos, aprender nuevas tecnologias y aportar todo de mi al equipo. 
+          Soy Fabian, un Dev enfocado en el desarrollo de applicaciones end-to-end. 
+          Me gusta trabajar por objetivos, aprender nuevas tecnologias y aportar todo de mi al equipo. 
           Soy Team player, pero tambien me desenvuelvo bien como autonomo. Tengo adaptabilidad, compromiso y pasion por lo que hago.
           Dispongo de experiencia trabajando en equipo con metodologias agiles.
         </b>
